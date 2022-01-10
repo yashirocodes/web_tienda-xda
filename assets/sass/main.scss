@@ -1,0 +1,20 @@
+//MAIN.SCSS Archivo manifiesto
+// EL ORDEN ES IMPORTANTE
+@import 'abstracts/mixins';
+@import 'abstracts/variables';
+//VENDORS
+@import 'vendors/bootstrap5/bootstrap.scss';
+//BASE
+@import 'base/base';
+@import 'base/reset';
+@import 'base/typography';
+//LAYOUT
+@import'layout/nav';
+@import'layout/header';
+@import'layout/main';
+@import'layout/footer';
+//COMPONENTS
+@import 'components/buttons';
+@import 'components/links'
+//PAGES
+//THEME
