@@ -1,0 +1,29 @@
+// START COMPONENT BUTTON PAGE
+/* START PAGE BUTTON + MODIFICATORS. */
+
+//button + mod
+.button{
+    font-family: $raleway;
+    font-size: $small;
+    font-weight: $bold;
+    background-color: $white;
+    border-radius: 3px;
+    border: 1px solid $smoky-black;
+    padding: 0.5rem 1.2rem;
+    cursor: pointer;
+    outline: none;
+    overflow: hidden;
+    &--small{
+        font-size: $x-small;
+        padding: 0.3rem 0.7rem;
+    }
+    &:hover{
+        border: 1px solid $quick-silver;
+    }
+    &:focus{
+        color: $quick-silver;
+        border: 1px solid $quick-silver;
+    }
+}
+
+// END BUTTON PAGE ...

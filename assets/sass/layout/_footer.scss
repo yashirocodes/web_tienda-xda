@@ -1,0 +1,47 @@
+//start footer page
+/*-| START FOOTER PAGE |-*/
+/*|- NEWSLETTER -|*/
+.footer{
+    width: 35vw;
+    height: 28vh;
+    background-color: $smoky-black;
+    color: $white;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    &__newsletter{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 3rem;
+        line-height: 2rem;
+        
+        
+    }
+    &__title{
+        font-family: $old-standard;
+        font-size: $xx-large;
+        margin-bottom: 1rem;
+    }
+}
+
+/*|- ASIDE -|*/
+.aside{
+    width: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $white;
+    &__text{
+        font-family: $old-standard;
+        font-size: $x-large;
+        text-transform: capitalize;
+        color: $smoky-black;
+        writing-mode: vertical-lr;
+
+    }
+}
+
+/*-| END OF FOOTER PAGE |-*/
+
+

@@ -13,34 +13,73 @@
       rel="stylesheet"
     />
     <!-- end google fonts -->
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/47d0fd349e.js" crossorigin="anonymous"></script>
+    <!-- Compiled css -->
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <!-- end of compiled css -->
   </head>
   <body>
+
+    <!-- NAV SECTION -->
       <nav class="nav">
         <div class="nav__logo"><span class="nav__text">XDA</span></div>
-        <ul class="nav__ul">
+        <div class="nav__container">
+          <ul class="nav__ul">
             <li class="nav__li"><a class="nav__a" href="#">Mujer</a></li>
             <li class="nav__li"><a class="nav__a" href="#">Hombre</a></li>
             <li class="nav__li"><a class="nav__a" href="#">Accesorios</a></li>
             <li class="nav__li"><a class="nav__a" href="#">Blog</a></li>
         </ul>
+<!-- BURGER -->
+<div class="respmenu">
+  <input type="checkbox">
+  <i class="fas fa-bars"></i>
+  <i class="fas fa-times"></i>
+  <nav>
+    <ul>
+      <li><a href="#">Mujer</a></li>
+      <li><a href="#">Hombre</a></li>
+      <li><a href="#">Accesorios</a></li>
+      <li><a href="#">Blog</a></li>
+    </ul>
+  </nav>
+</div>
+<!-- END BURGER -->
+        </div>
       </nav>
+       
+    <!-- END NAV SECTION -->
+    <!-- MAIN SECTION -->
       <main class="main">
+        <div class="main__section">
           <header class="header">
-              <h1 class="header__title"></h1>
-              <p class="header__text"></p>
-              <button class="button-normal">Ir a la tienda</button>
-          </header>
+            <h1 class="header__title">lorem ipsum ad valorem</h1>
+            <p class="header__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias tenetur obcaecati, maiores quidem nulla enim, velit eaque, voluptatum quam pariatur explicabo saepe. Iste illum ex eaque distinctio aut accusamus, suscipit sunt rerum est tenetur.</p>
+            <button type="button" class="button">Ir a la tienda</button>
+        </header>
+  <!-- END HEADER SECTION -->
+  <!-- FOOTER S ECTION -->
+  <footer class="footer">
+    <section class="footer__newsletter">
+        <h2 class="footer__title">Newsletter</h2>
+        <label class="label" for="#">Correo Electrónico</label>
+        <input class="input" type="text" placeholder="Ingresa tu correo electrónico">
+    </section>
+    <aside class="aside">
+      <p class="aside__text">suscribir</p>
+    </aside>
+  </footer>
+    <!-- END FOOTER SECTION -->
+        </div>
+    <!-- HEADER SECTION -->
+        
+      <!-- BIG IMAGE HOMEPAGE -->
+  <div class="img">
+  </div>
+  <!-- END IMAGE HOMEPAGE -->
+    <!-- END FOOTER SECTION -->
       </main>
-      <div class="img">
-        <img src="./assets/img/imagen1.png" alt="" class="img__index">
-    </div>
-    <footer class="footer">
-        <section class="footer__newsletter">
-            <h2>Newsletter</h2>
-            <label for="#">Correo Electrónico</label>
-            <input type="mail" placeholder="Ingresa tu correo electrónico">
-        </section>
-        <aside class="footer__aside">Suscribir</aside>
-    </footer>
+    
   </body>
 </html>
