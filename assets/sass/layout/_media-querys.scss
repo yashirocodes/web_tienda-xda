@@ -1,0 +1,70 @@
+//START MEDIA QUERYS PAGE
+/*MEDIA QUERYS PAGE*/
+//MEDIAS QUERYS
+@media screen and (min-width: 600px) {
+    .burger {
+      display: none !important;
+    }
+  }
+  @media (max-width: 600px) {
+    .nav {
+      &__text {
+        writing-mode: horizontal-tb !important;
+      }
+      &__ul {
+        display: none !important;
+      }
+      &__container {
+        display: block !important;
+      }
+    }
+    .main {
+      width: 100% !important;
+    }
+  
+    .main__section {
+      width: 100% !important;
+      order: 2;
+    }
+    .header {
+      width: 100% ;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .img {
+      width: 100% ;
+      height: 20rem;
+      order: 1 !important;
+    }
+    .footer {
+      width: 100% ;
+    }
+  }
+  
+  @media (max-width: 900px) {
+    .main {
+      width: 100% ;
+    }
+  
+    .main__section {
+      width: 100% ;
+      order: 2;
+    }
+    .header {
+      width: 100% ;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .img {
+      width: 100% ;
+      min-height: 25rem ;
+      order: 1 !important;
+    }
+    .footer {
+      width: 100% ;
+    }
+  }
+  

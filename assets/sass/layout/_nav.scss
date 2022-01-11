@@ -1,7 +1,7 @@
 // NAV PAGE START
 /*-| NAV SECTION START |-*/
 .nav{
-    width: 100vw;
+    width: 100%;
     height: 6.5rem;
     background-color: $white;
     display: flex;
@@ -38,24 +38,26 @@
     &__a{
         color: $smoky-black;
         font-family: $raleway;
-        font-size: x-large;
+        font-size: $large;
         font-weight: $bold;
     }
 }
 
 //BURGER MENU
-.respmenu a {
-    color: inherit;
-    text-decoration: none;
-    display: block;
-    padding: 10px 20px;
-    max-width: 200px;
-    background: #ffffff;
-    font-family: $raleway;
-    text-align: center;
-    
+.burger{
+    &__link{
+      color: inherit;
+      text-decoration: none;
+      display: block;
+      padding: 10px 20px;
+      max-width: 200px;
+      background: #ffffff;
+      font-family: $raleway;
+      text-align: center;
+    }
+   
   }
-  .respmenu input[type="checkbox"], .respmenu .fa-bars, .respmenu .fa-times {
+  .burger input[type="checkbox"], .burger .fa-bars, .burger .fa-times {
     position: absolute;
     box-sizing: border-box;
     margin: 0;
@@ -65,16 +67,16 @@
     height: 48px;
   }
   
-  .respmenu .fa-bars, .respmenu .fa-times {
+  .burger .fa-bars, .burger .fa-times {
     font-size: 48px;
     pointer-events: none;
   }
   
-  .respmenu input[type="checkbox"] {
+  .burger input[type="checkbox"] {
     opacity: 0;
   }
   
-  .respmenu {
+  .burger {
     color: rgb(0, 0, 0);
     position: relative;
     background: #ffffff;
@@ -84,19 +86,19 @@
     justify-content: center;
   }
   
-  .respmenu nav {
+  .burger nav {
     display: none;
   }
   
-  .respmenu input:checked ~ nav {
+  .burger input:checked ~ nav {
     display: block;
   }
   
-  .respmenu input:checked ~ .fa-bars {
+  .burger input:checked ~ .fa-bars {
     display: none;
   }
   
-  .respmenu input:not(:checked) ~ .fa-times {
+  .burger input:not(:checked) ~ .fa-times {
     display: none;
   }
 /*BURGER MENU*/

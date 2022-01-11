@@ -1,4 +1,4 @@
-//MAIN.SCSS Archivo manifiesto
+//MAIN.SCSS MANIFESTO PAGE
 // EL ORDEN ES IMPORTANTE
 @import 'abstract/mixins';
 @import 'abstract/variables';
@@ -13,6 +13,7 @@
 @import 'layout/header';
 @import 'layout/section-img';
 @import 'layout/footer';
+@import 'layout/media-querys';
 //COMPONENTS
 @import 'components/buttons';
 @import 'components/inputs'
